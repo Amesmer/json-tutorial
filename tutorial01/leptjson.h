@@ -1,6 +1,6 @@
-#ifndef LEPTJSON_H__
+#ifndef LEPTJSON_H__     //防止重复声明
 #define LEPTJSON_H__
-
+//json6zh
 typedef enum { LEPT_NULL, LEPT_FALSE, LEPT_TRUE, LEPT_NUMBER, LEPT_STRING, LEPT_ARRAY, LEPT_OBJECT } lept_type;
 
 typedef struct {
