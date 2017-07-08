@@ -1,8 +1,8 @@
 #ifndef LEPTJSON_H__     //防止重复声明
 #define LEPTJSON_H__
-//json6zh
+//json6种数据类型 枚举类型
 typedef enum { LEPT_NULL, LEPT_FALSE, LEPT_TRUE, LEPT_NUMBER, LEPT_STRING, LEPT_ARRAY, LEPT_OBJECT } lept_type;
-
+//树形结构声明
 typedef struct {
     lept_type type;
 }lept_value;
